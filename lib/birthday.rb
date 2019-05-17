@@ -9,8 +9,7 @@ birthday_kids = {
 
 
 def happy_birthday(birthday)
-    birthday.each do |name, age|
-  binding.pry
+  birthday.each do |name, age|
   return "Happy Birthday #{name}! You are now #{age} years old!"
 
 end

@@ -8,7 +8,7 @@ suite_e: "Crumpet the Elf"
 }
 
 
-
+def select_winner
 
 winner = " "
 passengers.each do |suite, name|

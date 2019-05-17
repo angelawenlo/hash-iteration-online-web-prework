@@ -9,4 +9,4 @@ suite_e: "Crumpet the Elf"
 winner = " "
 passengers each. do |suite, name|
   if suite == "suite_a" && name.start_with? ("A")
-    return 
+    return name

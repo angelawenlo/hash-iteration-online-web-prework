@@ -4,7 +4,8 @@ birthday_kids = {
   "Amanda" => 27
 }
 
-require 'pry'
+require 'pry
+'
 def happy_birthday(birthday_kids)
 message = ""
 birthday_kids.each do |name, age|

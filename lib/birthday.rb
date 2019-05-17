@@ -7,10 +7,8 @@ birthday_kids = {
 require 'pry'
 
 def happy_birthday(birthday_kids)
-message = ""
 birthday_kids.each do |name, age|
-  message = "Happy Birthday #{name}! You are now #{age} years old!"
-  return message
+   "Happy Birthday #{name}! You are now #{age} years old!"
   binding.pry
 end
 end

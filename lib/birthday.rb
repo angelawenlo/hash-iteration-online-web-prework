@@ -7,5 +7,5 @@ birthday_kids = {
 def birthday(birthday_kids)
 birthday_message = ""
 birthday_kids.each do |name, age|
-  "Happy Birthday "
+  birthday_message = "Happy Birthday #{name}! You are now #{age} years old!"
 end

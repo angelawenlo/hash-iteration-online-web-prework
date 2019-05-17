@@ -10,3 +10,4 @@ birthday_kids.each do |name, age|
   birthday_message = "Happy Birthday #{name}! You are now #{age} years old!"
   birthday_message
 end
+end
